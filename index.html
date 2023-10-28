@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Array prova </title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
- <p>Nome: </p><input type="text" class="name" placeholder="Digite seu nome">
- <p>Email: </p><input type="email" name="" class="email" placeholder="Digite seu email" required> 
-  <button onclick="Click()"> Cadastrar </button>
-  <p id="users"> 
 
-  </p>
+    <h1> CRUD </h1>
+    <div id="main">
+ <p>Nome: </p><input type="text" class="name" placeholder="Digite seu nome">
+ <p>Email: </p><input type="email" name="" class="email" placeholder="Digite seu email" required>
+ <button onclick="Click()"> Cadastrar </button> 
+</div>
+<div class="table">
+  <table border=1>
+  <tr id="users"> 
+
+  </tr>
+</table>
+</div>
 <script src="index.js">
 
 </script>
